@@ -5,20 +5,20 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = "25742938"
+API_ID = "23170386"
 # -------------------------------------------------------------
-API_HASH = "b35b715fe8dc0a58e8048988286fc5b6"
+API_HASH = "11c7c26954dd7239cfa2a01719be2e45"
 # --------------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN", None)
 DB_NAME = "shizuDB"
 MONGO_URL = getenv("MONGO_URL", None)
 OWNER_ID = int(getenv("OWNER_ID", "7009601543"))
-SUPPORT_GRP = "PBX_CHAT"
-UPDATE_CHNL = "HEROKUBIN_01"
-OWNER_USERNAME = "ll_BAD_MUNDA_ll"
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002056907061"))
+SUPPORT_GRP = "PARADISE_SOCITEY"
+UPDATE_CHNL = "The_incricible"
+OWNER_USERNAME = "llMR_KAMINAXDll"
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002046320443"))
 # --------------------------------------------------------------
-SUDOERS = list(map(int, getenv("SUDOERS", "7009601543").split()))
+SUDOERS = list(map(int, getenv("SUDOERS", "7520092354").split()))
 # --------------------------------------------------------------
 
 ### DONT TOUCH or EDIT codes after this line
@@ -27,6 +27,6 @@ BANNED_USERS = filters.user()
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Badhacker98/Chat_Bot",
+    "https://github.com/greatpersonxd/Chat_Bot",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
